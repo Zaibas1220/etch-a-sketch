@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    color: orange;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 2px solid rgb(230, 112, 2);
+}
+
+.grid-div {
+    border: 1px solid rgb(15, 18, 26);
+    background-color: rgb(73, 73, 73);
+}
+
+.container {
+    padding: 1rem;
+}
+
+#reset{
+    background-color: orange;
+    color: black;
+    size: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    text-decoration: none;
+}
