@@ -57,6 +57,10 @@ p{
     header {
       font-size: 2.4rem;
     }
+    
+    p{
+      font-size: 1.0rem;
+    }
   
     .grid {
       max-width: 300px;
