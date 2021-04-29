@@ -10,6 +10,10 @@ header{
     color: orange;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 0.8rem;
     margin-left: 200px;
     margin-right: 200px;
 }
