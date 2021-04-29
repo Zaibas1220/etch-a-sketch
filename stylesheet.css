@@ -10,6 +10,7 @@ header{
     color: orange;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    max-width: 60%;
 }
 
 .grid {
