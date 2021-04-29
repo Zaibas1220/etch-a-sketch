@@ -1,10 +1,16 @@
 const gridContainer = document.querySelector('#grid-container');
 const resetButton = document.querySelector('#reset');
+const changeButton = document.querySelector('#size')
 window.addEventListener("load", setGrid);
 
 function setGrid() {
     setGridSize(16);
     createGrid(16);
+}
+
+function setNewGrid(n) {
+    setGridSize(n);
+    createGrid(n);
 }
 
 function setGridSize(size) {
@@ -32,3 +38,16 @@ function changeColor(e) {
 resetButton.addEventListener('click', () => {
     location.reload();
 });
+
+changeButton.addEventListener('click', () => {
+    let size = parseInt(prompt("Insert new size:"));
+    clearGrid();
+    setNewGrid(size)
+})
+
+function clearGrid() {
+    const gridArray = Array.from(gridContainer.childNodes);
+    gridArray.forEach((element) => {
+      gridContainer.removeChild(element);
+    });
+}

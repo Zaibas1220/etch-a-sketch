@@ -3,6 +3,7 @@ body{
     text-align: center;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
 }
 
 header{
@@ -16,12 +17,12 @@ header{
     max-width: 500px;
     min-height: 500px;
     margin: 2rem auto;
-    border: 2px solid rgb(230, 112, 2);
+    border: 2px solid orange;
 }
-
+  
 .grid-div {
-    border: 1px solid rgb(15, 18, 26);
-    background-color: rgb(73, 73, 73);
+    border: 2px solid black;
+    background-color: rgb(56, 55, 55);
 }
 
 .container {
@@ -36,3 +37,23 @@ header{
     font-weight: bold;
     text-decoration: none;
 }
+
+#size{
+    background-color: orange;
+    color: black;
+    size: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width: 450px) {
+    header {
+      font-size: 2.4rem;
+    }
+  
+    .grid {
+      max-width: 300px;
+      min-height: 300px;
+    }
+  }
